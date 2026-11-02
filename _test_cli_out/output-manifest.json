@@ -2,8 +2,8 @@
   "skill": "earthquake-liquefaction-risk",
   "skill_version": "1.0.0",
   "command": "earthquake-liquefaction-risk --bbox 116 39 117 40 --synthetic --output-dir ./_test_cli_out --quiet",
-  "started_at": "2026-08-03T13:06:43.707696Z",
-  "finished_at": "2026-08-03T13:06:43.835682Z",
+  "started_at": "2026-11-02T15:02:15.100767Z",
+  "finished_at": "2026-11-02T15:02:15.382776Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -20,7 +20,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_out\\liquefaction_index.tif",
+      "path": "./_test_cli_out/liquefaction_index.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -37,7 +37,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\factor_of_safety.tif",
+      "path": "./_test_cli_out/factor_of_safety.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -54,7 +54,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\liquefaction_params.json",
+      "path": "./_test_cli_out/liquefaction_params.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -76,7 +76,7 @@
     "n_total_pixels": 4096
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "earthquake-liquefaction-risk"
   },
   "error": null
